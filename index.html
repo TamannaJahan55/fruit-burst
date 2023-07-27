@@ -303,10 +303,37 @@
                         <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
                       </div>
                         <div class="text-center space-y-4 mt-4">
-                            <p class="text-lg font-bold text-btn-red">Details</p>
+                            
+                            <!-- The button to open modal -->
+                       <a href="#my_modal_8" class="btn"><button class="text-lg font-bold text-btn-red">Details</button></a>
+                       
+                       <div class="modal " id="my_modal_8">
+                            <div class="modal-box">
+                               <img src="images/fruit8.png" alt="">
+                               <h3 class="font-bold text-lg">Red Dragon</h3>
+                               <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                               <div class="rating rating-lg rating-half justify-center">
+                                <input type="radio" name="rating-10" class="rating-hidden" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" checked/>
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                              </div>
+                               <div class="modal-action">
+                                  <a href="#" class="btn">Close</a>
+                                  <a href="#" class="btn bg-btn-red text-white">Buy Now</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
                 <!-- second card -->
                 <div class="card bg-base-100 p-9 border rounded-lg border-gray-200">
                     <figure><img class="w-36" src="/images/fruit7.png" alt="" /></figure>
@@ -442,82 +469,82 @@
                 </div>
               </div>
         </section>
-        <!-- choose section -->
-        <section class="container mx-auto">
-                    <h1 class="text-5xl font-extrabold text-center">Why Choose Us</h1>
-                    <p class="text-base font-medium text-center w-auto h-12 mt-6 mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                
-            <div class="grid-cols-1 md:grid-cols-1 lg:grid gap-8 grid-cols-3 bg-white">
-                <div class="grid gap-12 grid-rows-3">
-                    <!-- team -->
-                    <div class="flex justify-start gap-4 items-center">
-                        <div>
-                           <img class="w-15 h-15 rounded-full" src="./icons/group 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
-                        </div>
-                        <div> 
-                            <h4 class="text-2xl font-extrabold">Dedicated Team</h4><hr class="w-1/3 h-0.5 mr-auto bg-gray-500">
-                             <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                         </div>
-                    </div>
-                    <!-- fresh -->
-                    <div class="flex justify-start gap-4 items-center">
-                        <div>
-                            <img class="w-15 h-15 rounded-full" src="./icons/love 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
-                         </div>
-                        <div>
-                            <h4 class="text-2xl font-extrabold">Fresh is Best</h4><hr class="w-1/3 h-0.5 mr-auto bg-gray-500">
-                             <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                         </div>
-                    </div>
-                    <!-- gift -->
-                    <div class="flex justify-start gap-4 items-center">
-                        <div>
-                            <img class="w-15 h-15 rounded-full" src="./icons/gift-box 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
-                         </div>
-                        <div>
-                            <h4 class="text-2xl font-extrabold">Gift Certificates</h4><hr class="w-1/3 h-0.5 mr-auto bg-gray-500">
-                             <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                         </div>
-                    </div>
-                    
-                </div>
-                <div class="hero-content lg:flex-row order-center items-center">
-                  <img src="/images/whychoose1.png" class="max-w-sm rounded-lg shadow-2xl" />
-                </div>
-
-                <div class="grid gap-12 grid-rows-3 order-last">
-                    <!-- supplier -->
-                    <div class="flex justify-end gap-4 items-center">
-                         <div class="flex-col gap-3 text-right">
-                            <h4 class="text-2xl font-extrabold">Integrated Supplier</h4><hr class="w-1/3 h-0.5 ml-auto bg-gray-500">
-                             <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                         </div>
-                         <div>
-                            <img class="w-15 h-15 rounded-full" src="./icons/fruit 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
-                         </div>
-                    </div>
-                    <!-- practice -->
-                    <div class="flex justify-end gap-4 items-center">
-                        <div class="flex-col gap-3 text-right">
-                            <h4 class="text-2xl font-extrabold">Sustainable Practice</h4><hr class="w-1/3 h-0.5 ml-auto bg-gray-500">
-                             <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                         </div>
-                         <div>
-                            <img class="w-15 h-15 rounded-full" src="./icons/ice-cream 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
-                         </div>
-                    </div>
-                    <!-- benefits -->
-                    <div class="flex justify-end gap-4 items-center">
-                        <div class="flex-col gap-3 text-right">
-                             <h4 class="text-2xl font-extrabold">The Benefits Only</h4><hr class="w-1/3 h-0.5 ml-auto bg-gray-500">
-                             <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                         </div>
-                         <div>
-                            <img class="w-15 h-15 rounded-full" src="./icons/like 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
-                         </div>
-                    </div>
+       <!-- choose section -->
+       <section class="container mx-auto">
+        <h1 class="text-5xl font-extrabold text-center">Why Choose Us</h1>
+        <p class="text-base font-medium text-center w-auto h-12 mt-6 mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+    
+<div class="grid-cols-1 lg:grid gap-8 grid-cols-3 bg-white">
+    <div class="grid gap-12 grid-rows-3">
+        <!-- team -->
+        <div class="flex justify-start gap-4 items-center">
+            <div>
+               <img class="w-15 h-15 rounded-full" src="./icons/group 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
             </div>
-        </section>
+            <div> 
+                <h4 class="text-2xl font-extrabold">Dedicated Team</h4><hr class="w-1/3 h-0.5 mr-auto bg-gray-500">
+                 <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+             </div>
+        </div>
+        <!-- fresh -->
+        <div class="flex justify-start gap-4 items-center">
+            <div>
+                <img class="w-15 h-15 rounded-full" src="./icons/love 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
+             </div>
+            <div>
+                <h4 class="text-2xl font-extrabold">Fresh is Best</h4><hr class="w-1/3 h-0.5 mr-auto bg-gray-500">
+                 <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+             </div>
+        </div>
+        <!-- gift -->
+        <div class="flex justify-start gap-4 items-center">
+            <div>
+                <img class="w-15 h-15 rounded-full" src="./icons/gift-box 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
+             </div>
+            <div>
+                <h4 class="text-2xl font-extrabold">Gift Certificates</h4><hr class="w-1/3 h-0.5 mr-auto bg-gray-500">
+                 <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+             </div>
+        </div>
+        
+    </div>
+    <div class="hero-content lg:flex-row order-center items-center">
+      <img src="/images/whychoose1.png" class="max-w-sm rounded-lg shadow-2xl" />
+    </div>
+
+    <div class="grid gap-12 grid-rows-3 order-last">
+        <!-- supplier -->
+        <div class="flex justify-end gap-4 items-center">
+             <div class="flex-col gap-3 text-right">
+                <h4 class="text-2xl font-extrabold">Integrated Supplier</h4><hr class="w-1/3 h-0.5 ml-auto bg-gray-500">
+                 <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+             </div>
+             <div>
+                <img class="w-15 h-15 rounded-full" src="./icons/fruit 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
+             </div>
+        </div>
+        <!-- practice -->
+        <div class="flex justify-end gap-4 items-center">
+            <div class="flex-col gap-3 text-right">
+                <h4 class="text-2xl font-extrabold">Sustainable Practice</h4><hr class="w-1/3 h-0.5 ml-auto bg-gray-500">
+                 <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+             </div>
+             <div>
+                <img class="w-15 h-15 rounded-full" src="./icons/ice-cream 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
+             </div>
+        </div>
+        <!-- benefits -->
+        <div class="flex justify-end gap-4 items-center">
+            <div class="flex-col gap-3 text-right">
+                 <h4 class="text-2xl font-extrabold">The Benefits Only</h4><hr class="w-1/3 h-0.5 ml-auto bg-gray-500">
+                 <p class="text-base font-medium w-80">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+             </div>
+             <div>
+                <img class="w-15 h-15 rounded-full" src="./icons/like 1.png" alt="" style="background-image: url(./images/Ellipse\ 2.png); background-position: center; background-size: auto;">
+             </div>
+        </div>
+</div>
+</section>
  </main>
  <!-- footer -->
  <footer class="footer footer-center p-10 bg-black text-base-content rounded mt-32">
