@@ -40,8 +40,8 @@
     <header class="mx-auto my-6 lg:my-12">
         <!-- nav section -->
         <nav class="container mx-auto">
-            <div class="navbar bg-red-500 rounded-full">
-                <div class="flex-1">
+            <div class="navbar bg-red-500 rounded-full ">
+                <div class="md:flex-auto lg:flex-1">
                     <div class="navbar-start hidden md:flex lg:flex">
                         <ul class="menu text-base text-white menu-horizontal px-1">
                             <li><a>Home</a></li>
@@ -51,7 +51,7 @@
                         </ul>
                     </div>
                     <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost justify-end md:hidden lg:hidden">
+                        <label tabindex="0" class="btn btn-ghost flex-row-reverse  md:hidden lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -59,20 +59,20 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52">
+                            class="menu menu-sm dropdown-content mt-3 z-[1] text-base shadow bg-base-100 rounded-box w-52 p-5">
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
                             <li><a>All Fruits</a></li>
                         </ul>
                     </div>
-                    <div class="flex-reverse md:flex justify-between items-end lg:flex justify-between items-center">
+                    <div class="flex items-start md:flex justify-between items-end lg:flex justify-between items-center">
                         <img src="images/logo.png" alt="">
                         <h1 class="text-black text-xl font-medium lg:text-4xl font-bold text-white">Fruit Burst</h1>
                     </div>
                 </div>
                 
-                <div class="hidden md:flex-col lg:flex form-control justify-between relative">
+                <div class="hidden md:flex-row-reverse lg:flex form-control justify-between relative">
                     <input type="text" placeholder="Search here" class="input input-sm w-full max-w-xs" />
                     <button class="absolute -top-0 -right-0">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -250,10 +250,10 @@
             <div class="md:flex lg:flex justify-between">
                 <div class="text-center md:text-left lg:text-left">
                     <h3 class="text-5xl font-extrabold mb-6">Deal of the day</h3>
-                    <p class="text-base font-medium w-3/5 mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="text-base font-medium mb-12 lg:w-3/5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <div>
-                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="grid grid-flow-col gap-5 auto-cols-max ml-16 lg:ml-0">
                         <div class="flex flex-col">
                           <span class="countdown font-extrabold text-5xl">
                             <span style="--value:29;"></span>
@@ -304,13 +304,13 @@
                       </div>
                         <div class="text-center space-y-4 mt-4">
                             
-                            <!-- The button to open modal -->
+                            <!-- The button to open modal 1-->
                        <a href="#my_modal_8" class="btn"><button class="text-lg font-bold text-btn-red">Details</button></a>
                        
                        <div class="modal " id="my_modal_8">
                             <div class="modal-box">
-                               <img src="images/fruit8.png" alt="">
-                               <h3 class="font-bold text-lg">Red Dragon</h3>
+                               <img src="images/fruit6.png" alt="">
+                               <h3 class="font-bold text-lg">Apple</h3>
                                <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                                <div class="rating rating-lg rating-half justify-center">
                                 <input type="radio" name="rating-10" class="rating-hidden" />
@@ -354,7 +354,33 @@
                             <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
                           </div>
                         <div class="text-center space-y-4 mt-4">
-                            <p class="text-lg font-bold text-btn-red">Details</p>
+                             <!-- The button to open modal 2 -->
+                       <a href="#my_modal_9" class="btn"><button class="text-lg font-bold text-btn-red">Details</button></a>
+                       
+                       <div class="modal " id="my_modal_9">
+                            <div class="modal-box">
+                               <img src="images/fruit7.png" alt="">
+                               <h3 class="font-bold text-lg">Orange</h3>
+                               <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                               <div class="rating rating-lg rating-half justify-center">
+                                <input type="radio" name="rating-10" class="rating-hidden" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" checked/>
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                              </div>
+                               <div class="modal-action">
+                                  <a href="#" class="btn">Close</a>
+                                  <a href="#" class="btn bg-btn-red text-white">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -378,7 +404,33 @@
                             <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
                           </div>
                         <div class="text-center space-y-4 mt-4">
-                            <p class="text-lg font-bold text-btn-red">Details</p>
+                             <!-- The button to open modal 3-->
+                       <a href="#my_modal_6" class="btn"><button class="text-lg font-bold text-btn-red">Details</button></a>
+                       
+                       <div class="modal " id="my_modal_6">
+                            <div class="modal-box">
+                               <img src="images/fruit8.png" alt="">
+                               <h3 class="font-bold text-lg">Red Dragon</h3>
+                               <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                               <div class="rating rating-lg rating-half justify-center">
+                                <input type="radio" name="rating-10" class="rating-hidden" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" checked/>
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                              </div>
+                               <div class="modal-action">
+                                  <a href="#" class="btn">Close</a>
+                                  <a href="#" class="btn bg-btn-red text-white">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -402,7 +454,33 @@
                             <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
                           </div>
                         <div class="text-center space-y-4 mt-4">
-                            <p class="text-lg font-bold text-btn-red">Details</p>
+                             <!-- The button to open modal 4-->
+                       <a href="#my_modal_7" class="btn"><button class="text-lg font-bold text-btn-red">Details</button></a>
+                       
+                       <div class="modal " id="my_modal_7">
+                            <div class="modal-box">
+                               <img src="images/fruit9.png" alt="">
+                               <h3 class="font-bold text-lg">Banana</h3>
+                               <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                               <div class="rating rating-lg rating-half justify-center">
+                                <input type="radio" name="rating-10" class="rating-hidden" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" checked/>
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-btn-red mask mask-star-2 mask-half-2" />
+                              </div>
+                               <div class="modal-action">
+                                  <a href="#" class="btn">Close</a>
+                                  <a href="#" class="btn bg-btn-red text-white">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -422,21 +500,21 @@
                     <div class="grid-col-1 items-center ml-3 md:grid gap-10 grid-cols-2 lg:grid gap-20 grid-cols-4 justify-between">
                         <!-- member 1 -->
                         <div class="flex-col justify-between text-center items-center">
-                            <img src="images/member1.png" alt="">
+                            <img class="m-auto" src="images/member1.png" alt="">
                             <h4 class="text-2xl font-bold mt-8">Awlad Hossain</h4>
                             <p class="text-base font-medium mb-2">Fruits Expert</p>
-                            <div class="flex gap-3 text-center ">
+                            <div class="lg:flex gap-3 text-center ">
                                 <span class="text-btn-red"><i class="fa-brands fa-facebook"></i></span>
                                 <span class="text-btn-red"><i class="fa-brands fa-twitter"></i></span>
                                 <span class="text-btn-red"><i class="fa-brands fa-linkedin"></i></span>
                             </div>
                         </div>
                           <!-- member 2 -->
-                            <div class="flex-col justify-between text-center items-center">
-                            <img src="images/member2.png" alt="">
+                        <div class="flex-col justify-between text-center items-center">
+                            <img class="m-auto" src="images/member2.png" alt="">
                             <h4 class="text-2xl font-bold mt-8">Safia Chowdhury</h4>
                             <p class="text-base font-medium mb-2">Fruits Expert</p>
-                            <div class="flex gap-3 text-center">
+                            <div class="lg:flex gap-3 text-center">
                                 <span class="text-btn-red"><i class="fa-brands fa-facebook"></i></span>
                                 <span class="text-btn-red"><i class="fa-brands fa-twitter"></i></span>
                                 <span class="text-btn-red"><i class="fa-brands fa-linkedin"></i></span>
@@ -444,10 +522,10 @@
                         </div>
                         <!-- member 3 -->
                         <div class="flex-col justify-between text-center items-center">
-                            <img src="images/member3.png" alt="">
+                            <img class="m-auto" src="images/member3.png" alt="">
                             <h4 class="text-2xl font-bold mt-8">Rokib Hossain</h4>
                             <p class="text-base font-medium mb-2">Fruits Expert</p>
-                            <div class="flex gap-3 text-center">
+                            <div class="lg:flex gap-3 text-center">
                                 <span class="text-btn-red"><i class="fa-brands fa-facebook"></i></span>
                                 <span class="text-btn-red"><i class="fa-brands fa-twitter"></i></span>
                                 <span class="text-btn-red"><i class="fa-brands fa-linkedin"></i></span>
@@ -455,10 +533,10 @@
                         </div>
                         <!-- member 4 -->
                         <div class="flex-col justify-between text-center items-center">
-                            <img src="images/member4.png" alt="">
+                            <img class="m-auto" src="images/member4.png" alt="">
                             <h4 class="text-2xl font-bold mt-10">Chaity</h4>
                             <p class="text-base font-medium mt-2 mb-4">Fruits Expert</p>
-                            <div class="flex gap-3 text-center">
+                            <div class="lg:flex gap-3 text-center">
                                 <span class="text-btn-red"><i class="fa-brands fa-facebook"></i></span>
                                 <span class="text-btn-red"><i class="fa-brands fa-twitter"></i></span>
                                 <span class="text-btn-red"><i class="fa-brands fa-linkedin"></i></span>
@@ -475,6 +553,7 @@
         <p class="text-base font-medium text-center w-auto h-12 mt-6 mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
     
 <div class="grid-cols-1 lg:grid gap-8 grid-cols-3 bg-white">
+    <!-- grid 1 -->
     <div class="grid gap-12 grid-rows-3">
         <!-- team -->
         <div class="flex justify-start gap-4 items-center">
@@ -508,11 +587,14 @@
         </div>
         
     </div>
-    <div class="hero-content lg:flex-row order-center items-center">
+
+    <!-- grid 2 -->
+    <div class="hero-content md:flex-row-reverse lg:flex-row order-center items-center">
       <img src="/images/whychoose1.png" class="max-w-sm rounded-lg shadow-2xl" />
     </div>
-
-    <div class="grid gap-12 grid-rows-3 order-last">
+     
+    <!-- grid 3 -->
+    <div class="grid gap-12 grid-rows-3">
         <!-- supplier -->
         <div class="flex justify-end gap-4 items-center">
              <div class="flex-col gap-3 text-right">
@@ -552,7 +634,7 @@
         <img src="images/logo.png" alt="">
         <h1 class="text-white text-xl lg:text-4xl">Fruit Burst</h1>
     </div>
-    <div class="grid grid-flow-col gap-4">
+    <div class="grid-cols-3 md:grid-cols-6 lg:grid grid-cols-6 gap-4">
       <a class="link link-hover text-white">Home</a> 
       <a class="link link-hover text-white">About us</a> 
       <a class="link link-hover text-white">Shop</a> 
